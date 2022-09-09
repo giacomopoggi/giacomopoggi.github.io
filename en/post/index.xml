@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Giacomo Poggi</title>
+        <link>https://giacomopoggi.com/en/post/</link>
+        <description>Recent content in Posts on Giacomo Poggi</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://giacomopoggi.com/en/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Pyava: a simple emulator launcher written in Python</title>
+        <link>https://giacomopoggi.com/en/p/pyava-a-simple-emulator-launcher-written-in-python/</link>
+        <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://giacomopoggi.com/en/p/pyava-a-simple-emulator-launcher-written-in-python/</guid>
+        <description>&lt;p&gt;Pyava is a simple emulator launcher that I wrote in the october of 2017 using Python (more precisely Python 3), the programming language I was studying at the time.&lt;br&gt;
+It&amp;rsquo;s a portable and convenient menu to run all your games from a single place.&lt;br&gt;
+Its creation was inspired by &lt;a class=&#34;link&#34; href=&#34;https://github.com/Beluki/Yava&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Yava&lt;/a&gt;, a similar utility written in C# (and the name Pyava itself is the crasis of the words &lt;strong&gt;P&lt;/strong&gt;ython and &lt;strong&gt;Yava&lt;/strong&gt;).&lt;br&gt;
+The entire project can be found on &lt;a class=&#34;link&#34; href=&#34;https://github.com/giacomopoggi/Pyava&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://giacomopoggi.com/images/pyava-screenshot.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;alt text&#34;
+	
+	
+&gt;
+&lt;em&gt;Pyava running on Windows 10&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Keyboard shortcuts&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Key&lt;/th&gt;
+&lt;th&gt;Use&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Esc&lt;/td&gt;
+&lt;td&gt;Close the program.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Tab&lt;/td&gt;
+&lt;td&gt;Change between the left and right panel.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+A&lt;/td&gt;
+&lt;td&gt;Show an information message.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+R&lt;/td&gt;
+&lt;td&gt;Reload config.ini without closing the program.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+S&lt;/td&gt;
+&lt;td&gt;Set a custom separator for splitting parameters.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Configuration&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Pyava is configured using a file named &amp;ldquo;config.ini&amp;rdquo;. This file contains everything Pyava needs to know about the folders and files it will launch.&lt;/p&gt;
+&lt;p&gt;Here is an example that generates the screenshot above:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ini&#34; data-lang=&#34;ini&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;[Game Boy]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;games&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;C:\Games\Game Boy\&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;executable&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;C:\Emulators\BGB\bgb.exe&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;extensions&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;.zip, .gb&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;[Nintendo Entertainment System]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;games&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;C:\Games\Nintendo Entertainment System\&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;executable&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;C:\Emulators\Mesen\Mesen.exe&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;extensions&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;.7z&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;na&#34;&gt;parameters&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;/fullscreen, /DoNotSaveSettings&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Parameters and extensions are separated by &amp;ldquo;,&amp;rdquo;. You can set a custom separator using the apposite keyboard shortcut, but it resets to &amp;ldquo;,&amp;rdquo; every time you select a different platform from the list.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
