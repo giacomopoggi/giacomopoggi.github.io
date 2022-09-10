@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Altra descrizione'><title>Pyava: un semplice launcher per emulatori scritto in Python</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Pyava è un semplice launcher per emulatori che ho scritto nell&amp;rsquo;ottobre del 2017 in Python (per la precisione Python 3), il linguaggio di programmazione che studiavo in quel momento.
+Si configura come un comodo menù portatile per avviare i propri giochi.
+L&amp;rsquo;idea è stata ispirata da Yava, un programma molto simile scritto in linguaggio C# (ed il nome Pyava stesso rappresenta una crasi delle parole Python e Yava).
+Pyava può essere scaricato gratuitamente da GitHub.'><title>Pyava: un semplice launcher per emulatori scritto in Python</title>
 
 <link rel='canonical' href='https://giacomopoggi.com/p/pyava/'>
 
 <link rel="stylesheet" href="/scss/style.min.5a8e892f6fa14515e9065eee1f5d2e05302606ec7f11750b2fb95198f9cdcbfd.css"><meta property='og:title' content='Pyava: un semplice launcher per emulatori scritto in Python'>
-<meta property='og:description' content='Altra descrizione'>
+<meta property='og:description' content='Pyava è un semplice launcher per emulatori che ho scritto nell&amp;rsquo;ottobre del 2017 in Python (per la precisione Python 3), il linguaggio di programmazione che studiavo in quel momento.
+Si configura come un comodo menù portatile per avviare i propri giochi.
+L&amp;rsquo;idea è stata ispirata da Yava, un programma molto simile scritto in linguaggio C# (ed il nome Pyava stesso rappresenta una crasi delle parole Python e Yava).
+Pyava può essere scaricato gratuitamente da GitHub.'>
 <meta property='og:url' content='https://giacomopoggi.com/p/pyava/'>
 <meta property='og:site_name' content='Giacomo Poggi'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Python' /><meta property='article:tag' content='Github' /><meta property='article:published_time' content='2020-04-22T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2020-04-22T00:00:00&#43;00:00'/><meta property='og:image' content='https://giacomopoggi.com/p/pyava/pyava-screenshot.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Python' /><meta property='article:tag' content='Github' /><meta property='article:published_time' content='2020-04-22T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2020-04-22T00:00:00&#43;00:00'/><meta property='og:image' content='https://giacomopoggi.com/p/pyava/pyava-default-image.png' />
 <meta name="twitter:title" content="Pyava: un semplice launcher per emulatori scritto in Python">
-<meta name="twitter:description" content="Altra descrizione"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://giacomopoggi.com/p/pyava/pyava-screenshot.png' />
+<meta name="twitter:description" content="Pyava è un semplice launcher per emulatori che ho scritto nell&amp;rsquo;ottobre del 2017 in Python (per la precisione Python 3), il linguaggio di programmazione che studiavo in quel momento.
+Si configura come un comodo menù portatile per avviare i propri giochi.
+L&amp;rsquo;idea è stata ispirata da Yava, un programma molto simile scritto in linguaggio C# (ed il nome Pyava stesso rappresenta una crasi delle parole Python e Yava).
+Pyava può essere scaricato gratuitamente da GitHub."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://giacomopoggi.com/p/pyava/pyava-default-image.png' />
     <link rel="shortcut icon" href="/images/favicon.ico" />
 
     </head>
@@ -23,7 +32,7 @@
         (function() {
             const colorSchemeKey = 'StackColorScheme';
             if(!localStorage.getItem(colorSchemeKey)){
-                localStorage.setItem(colorSchemeKey, "dark");
+                localStorage.setItem(colorSchemeKey, "light");
             }
         })();
     </script><script>
@@ -64,7 +73,7 @@
                 
                 </a>
                 
-                    <span class="emoji">🍜</span>
+                    <span class="emoji">☕</span>
                 
             </figure>
             
@@ -142,26 +151,6 @@
         
 
         <li >
-            <a href='/su-di-me/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="7" r="4" />
-  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
-</svg>
-
-
-
-                
-                <span>Su di me</span>
-            </a>
-        </li>
-        
-        
-
-        <li >
             <a href='/archives/' >
                 
                 
@@ -176,7 +165,7 @@
 
 
                 
-                <span>Archivio</span>
+                <span>Archivi</span>
             </a>
         </li>
         
@@ -253,10 +242,10 @@
     <header class="article-header">
         <div class="article-image">
             <a href="/p/pyava/">
-                <img src="/p/pyava/pyava-screenshot_hu0a3688b0fca47aa0af213e373bb3062f_42623_800x0_resize_box_3.png"
-                        srcset="/p/pyava/pyava-screenshot_hu0a3688b0fca47aa0af213e373bb3062f_42623_800x0_resize_box_3.png 800w, /p/pyava/pyava-screenshot_hu0a3688b0fca47aa0af213e373bb3062f_42623_1600x0_resize_box_3.png 1600w"
+                <img src="/p/pyava/pyava-default-image_hud0b9bf71b448ced5f6a4c8535a8e3de2_48258_800x0_resize_box_3.png"
+                        srcset="/p/pyava/pyava-default-image_hud0b9bf71b448ced5f6a4c8535a8e3de2_48258_800x0_resize_box_3.png 800w, /p/pyava/pyava-default-image_hud0b9bf71b448ced5f6a4c8535a8e3de2_48258_1600x0_resize_box_3.png 1600w"
                         width="800" 
-                        height="561" 
+                        height="450" 
                         loading="lazy"
                         alt="Featured image of post Pyava: un semplice launcher per emulatori scritto in Python" />
                 
@@ -281,10 +270,6 @@
         </h2>
     
         
-        <h3 class="article-subtitle">
-            Altra descrizione
-        </h3>
-        
     </div>
 
     
@@ -300,7 +285,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">April 22, 2020</time>
+                <time class="article-time--published">2020-22-04</time>
             </div>
         
 
@@ -337,7 +322,7 @@
 
             <div>
                 
-                    <a href="https://giacomopoggi.com/en/p/pyava-a-simple-emulator-launcher-written-in-python/" class="link">English</a>
+                    <a href="https://giacomopoggi.com/en/p/pyava-en/" class="link">English</a>
                 
             </div>
         </footer>

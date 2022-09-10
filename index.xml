@@ -12,7 +12,7 @@
         <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
         
         <guid>https://giacomopoggi.com/p/pyava/</guid>
-        <description>&lt;img src="https://giacomopoggi.com/p/pyava/pyava-screenshot.png" alt="Featured image of post Pyava: un semplice launcher per emulatori scritto in Python" /&gt;&lt;p&gt;Pyava è un semplice launcher per emulatori che ho scritto nell&amp;rsquo;ottobre del 2017 in Python (per la precisione Python 3), il linguaggio di programmazione che studiavo in quel momento.&lt;br&gt;
+        <description>&lt;img src="https://giacomopoggi.com/p/pyava/pyava-default-image.png" alt="Featured image of post Pyava: un semplice launcher per emulatori scritto in Python" /&gt;&lt;p&gt;Pyava è un semplice launcher per emulatori che ho scritto nell&amp;rsquo;ottobre del 2017 in Python (per la precisione Python 3), il linguaggio di programmazione che studiavo in quel momento.&lt;br&gt;
 Si configura come un comodo menù portatile per avviare i propri giochi.&lt;br&gt;
 L&amp;rsquo;idea è stata ispirata da &lt;a class=&#34;link&#34; href=&#34;https://github.com/Beluki/Yava&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Yava&lt;/a&gt;, un programma molto simile scritto in linguaggio C# (ed il nome Pyava stesso rappresenta una crasi delle parole &lt;strong&gt;P&lt;/strong&gt;ython e &lt;strong&gt;Yava&lt;/strong&gt;).&lt;br&gt;
@@ -87,40 +87,12 @@ Pyava può essere scaricato gratuitamente da &lt;a class=&#34;link&#34; href=&#3
 </description>
         </item>
         <item>
-        <title>Archivio</title>
+        <title>Archivi</title>
         <link>https://giacomopoggi.com/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
         <guid>https://giacomopoggi.com/archives/</guid>
         <description></description>
-        </item>
-        <item>
-        <title>Su di me</title>
-        <link>https://giacomopoggi.com/su-di-me/</link>
-        <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://giacomopoggi.com/su-di-me/</guid>
-        <description>&lt;p&gt;Written in Go, Hugo is an open source static site generator available under the &lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/blob/master/LICENSE&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Apache Licence 2.0.&lt;/a&gt; Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&lt;/p&gt;
-&lt;p&gt;Hugo makes use of a variety of open source projects including:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/yuin/goldmark&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/yuin/goldmark&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/alecthomas/chroma&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/alecthomas/chroma&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/muesli/smartcrop&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/muesli/smartcrop&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/spf13/cobra&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/spf13/cobra&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/spf13/viper&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/spf13/viper&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.&lt;/p&gt;
-&lt;p&gt;Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.&lt;/p&gt;
-&lt;p&gt;Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.&lt;/p&gt;
-&lt;p&gt;Learn more and contribute on &lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-</description>
         </item>
         <item>
         <title>Cerca</title>

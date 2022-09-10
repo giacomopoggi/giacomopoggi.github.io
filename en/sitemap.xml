@@ -2,6 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://giacomopoggi.com/en/categories/</loc>
+    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://giacomopoggi.com/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://giacomopoggi.com/en/categories/"
+                />
+  </url><url>
     <loc>https://giacomopoggi.com/en/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -13,6 +26,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://giacomopoggi.com/en/"
+                />
+  </url><url>
+    <loc>https://giacomopoggi.com/en/tags/github/</loc>
+    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://giacomopoggi.com/tags/github/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://giacomopoggi.com/en/tags/github/"
                 />
   </url><url>
     <loc>https://giacomopoggi.com/en/post/</loc>
@@ -28,7 +54,10 @@
                 href="https://giacomopoggi.com/en/post/"
                 />
   </url><url>
-    <loc>https://giacomopoggi.com/en/p/pyava-a-simple-emulator-launcher-written-in-python/</loc>
+    <loc>https://giacomopoggi.com/en/categories/programming/</loc>
+    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://giacomopoggi.com/en/p/pyava-en/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -38,22 +67,24 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://giacomopoggi.com/en/p/pyava-a-simple-emulator-launcher-written-in-python/"
+                href="https://giacomopoggi.com/en/p/pyava-en/"
                 />
   </url><url>
-    <loc>https://giacomopoggi.com/en/categories/</loc>
+    <loc>https://giacomopoggi.com/en/tags/python/</loc>
+    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
-                href="https://giacomopoggi.com/categories/"
+                href="https://giacomopoggi.com/tags/python/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://giacomopoggi.com/en/categories/"
+                href="https://giacomopoggi.com/en/tags/python/"
                 />
   </url><url>
     <loc>https://giacomopoggi.com/en/tags/</loc>
+    <lastmod>2020-04-22T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="it"
@@ -63,6 +94,44 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://giacomopoggi.com/en/tags/"
+                />
+  </url><url>
+    <loc>https://giacomopoggi.com/en/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://giacomopoggi.com/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://giacomopoggi.com/en/archives/"
+                />
+  </url><url>
+    <loc>https://giacomopoggi.com/en/page/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://giacomopoggi.com/page/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://giacomopoggi.com/en/page/"
+                />
+  </url><url>
+    <loc>https://giacomopoggi.com/en/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://giacomopoggi.com/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://giacomopoggi.com/en/search/"
                 />
   </url>
 </urlset>
