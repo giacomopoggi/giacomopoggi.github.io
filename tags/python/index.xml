@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Giacomo Poggi</title>
-    <link>https://example.org/</link>
-    <description>Recent content on Giacomo Poggi</description>
+    <title>Python on Giacomo Poggi</title>
+    <link>https://example.org/tags/python/</link>
+    <description>Recent content in Python on Giacomo Poggi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2022</copyright>
-    <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pyava: un semplice launcher per emulatori scritto in Python</title>
       <link>https://example.org/blog/pyava/</link>

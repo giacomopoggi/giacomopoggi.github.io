@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>Pyava: un semplice launcher per emulatori scritto in Python | Giacomo Poggi</title>
+
+  <meta charset="UTF-8">
+  <meta name="language" content="en">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  
+  
+
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+
+
+  
+  
+    
+ 
+  
+  
+  
+  
+  
+  
+    
+    <link type="text/css" rel="stylesheet" href="/css/post.min.86d1effd4c412b85ac13db53a90c473a0f256f789b821e131125c9aa25cb6a6d.css" integrity="sha256-htHv/UxBK4WsE9tTqQxHOg8lb3ibgh4TESXJqiXLam0="/>
+  
+    
+    <link type="text/css" rel="stylesheet" href="/css/custom.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" integrity="sha256-47DEQpj8HBSa&#43;/TImW&#43;5JCeuQeRkm5NMpJWZG3hSuFU="/>
+  
+  
+   
+   
+    
+
+<script type="application/ld+json">
+  
+    {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/example.org\/"
+      },
+      "articleSection" : "blog",
+      "name" : "Pyava: un semplice launcher per emulatori scritto in Python",
+      "headline" : "Pyava: un semplice launcher per emulatori scritto in Python",
+      "description" : "",
+      "inLanguage" : "en-US",
+      "author" : "",
+      "creator" : "",
+      "publisher": "",
+      "accountablePerson" : "",
+      "copyrightHolder" : "",
+      "copyrightYear" : "2020",
+      "datePublished": "2020-04-22 00:00:00 \u002b0000 UTC",
+      "dateModified" : "2020-04-22 00:00:00 \u002b0000 UTC",
+      "url" : "https:\/\/example.org\/blog\/pyava\/",
+      "wordCount" : "225",
+      "keywords" : ["Blog"]
+    }
+  
+  </script>
+</head>
+
+<body>
+  <div class="burger__container">
+  <div class="burger" aria-controls="navigation" aria-label="Menu">
+    <div class="burger__meat burger__meat--1"></div>
+    <div class="burger__meat burger__meat--2"></div>
+    <div class="burger__meat burger__meat--3"></div>
+  </div>
+</div>
+ 
+
+  <nav class="nav" id="navigation">
+  <ul class="nav__list">
+    
+    
+      <li>
+        <a  href="/">Home</a>
+      </li>
+    
+      <li>
+        <a  class="active"
+         href="/blog">Blog</a>
+      </li>
+    
+  </ul>
+</nav>
+
+
+  <main>
+    
+    
+
+    <div class="flex-wrapper">
+      <div class="post__container">
+        <div class="post">
+          <header class="post__header">
+            <h1 id="post__title">Pyava: un semplice launcher per emulatori scritto in Python</h1>
+            <time datetime="2020-04-22 00:00:00 &#43;0000 UTC" class="post__date">2020-22-04</time> 
+          </header>
+          <article class="post__content">
+              
+<p>Pyava è un semplice launcher per emulatori che ho scritto nell&rsquo;ottobre del 2017 in Python (per la precisione Python 3), il linguaggio di programmazione che studiavo in quel momento.<br>
+Si configura come un comodo menù portatile per avviare i propri giochi.<br>
+L&rsquo;idea è stata ispirata da <a href="https://github.com/Beluki/Yava" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>Yava</a>, un programma molto simile scritto in linguaggio C# (ed il nome Pyava stesso rappresenta una crasi delle parole <strong>P</strong>ython e <strong>Yava</strong>).<br>
+Pyava può essere scaricato gratuitamente da <a href="https://github.com/giacomopoggi/Pyava" 
+  
+   target="_blank" rel="noreferrer noopener" 
+>GitHub</a>.</p>
+<p><img src="/pyava-screenshot.png" alt="Pyava su Windows 10"></p>
+<h2 id="tasti-rapidi"><strong>Tasti rapidi</strong><a class="anchor" href="#tasti-rapidi">#</a></h2>
+<table>
+<thead>
+<tr>
+<th>Tasto</th>
+<th>Funzione</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Esc</td>
+<td>Chiude il programma.</td>
+</tr>
+<tr>
+<td>Tab</td>
+<td>Sposta la selezione dal pannello sinistro al destro.</td>
+</tr>
+<tr>
+<td>Ctrl+A</td>
+<td>Mostra un messaggio informativo.</td>
+</tr>
+<tr>
+<td>Ctrl+R</td>
+<td>Ricarica il file config.ini senza chiudere il programma.</td>
+</tr>
+<tr>
+<td>Ctrl+S</td>
+<td>Imposta un separatore personalizzato per dividere i parametri.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="configurazione"><strong>Configurazione</strong><a class="anchor" href="#configurazione">#</a></h2>
+<p>Pyava deve essere configurato utilizzando un file denominato &ldquo;config.ini&rdquo;. Questo file contiene tutto ciò che Pyava ha bisogno di sapere sulle cartelle ed i file che dovrà gestire.</p>
+<p>Questo esempio di configurazione è stato utilizzato nella generazione dello screeenshot precedente:</p>
+<pre><code class="language-ini">[Game Boy]
+games = C:\Games\Game Boy\
+executable = C:\Emulators\BGB\bgb.exe
+extensions = .zip, .gb
+
+[Nintendo Entertainment System]
+games = C:\Games\Nintendo Entertainment System\
+executable = C:\Emulators\Mesen\Mesen.exe
+extensions = .7z
+parameters = /fullscreen, /DoNotSaveSettings
+</code></pre>
+<p>I parametri e le estensioni sono separati dal carattere &ldquo;,&rdquo;. Si può impostare un separatore personalizzato utilizzando l&rsquo;apposito tasto rapido, ma il separatore è reimpostato sul carattere &ldquo;,&rdquo; ogni volta che viene selezionata una piattaforma diversa dalla lista.</p>
+
+
+              
+          </article>
+          
+
+<ul class="tags__list">
+    
+    <li class="tag__item">
+        <a class="tag__link" href="https://example.org/tags/python/">Python</a>
+    </li></ul>
+
+ <div class="pagination">
+  
+
+  
+</div>
+
+          
+          <footer class="post__footer">
+            
+
+
+<div class="social-icons">
+  
+     
+    
+      <a
+        class="social-icons__link"
+        title="Email"
+        href="mailto:giapog@duck.com"
+        target="_blank"
+        rel="me noopener"
+      >
+        <div class="social-icons__icon" style="background-image: url('https://example.org/svg/email.svg')"></div>
+      </a>
+    
+     
+</div>
+
+            <p>© 2022</p>
+          </footer>
+          </div>
+      </div>
+      
+      <div class="toc-container">
+           <div class="toc-post-title">Pyava: un semplice launcher per emulatori scritto in Python</div> 
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#tasti-rapidi"><strong>Tasti rapidi</strong></a></li>
+    <li><a href="#configurazione"><strong>Configurazione</strong></a></li>
+  </ul>
+</nav>
+      </div>
+      
+    </div>
+    
+
+  </main>
+
+   
+
+  
+  <script src="/js/index.min.301a8b0870381bf76b3b5182e8966d363a0474281183439beb024d8b8228fc66.js" integrity="sha256-MBqLCHA4G/drO1GC6JZtNjoEdCgRg0Ob6wJNi4Io/GY=" crossorigin="anonymous"></script>
+  
+  
+  <script src="https://unpkg.com/prismjs@1.20.0/components/prism-core.min.js"></script>
+
+  
+  <script src="https://unpkg.com/prismjs@1.20.0/plugins/autoloader/prism-autoloader.min.js"
+    data-autoloader-path="https://unpkg.com/prismjs@1.20.0/components/"></script>
+
+  
+    <script src="/js/table-of-contents.js"></script>
+  
+
+
+</body>
+
+</html>
