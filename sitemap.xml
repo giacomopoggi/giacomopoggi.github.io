@@ -2,21 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/</loc>
+    <loc>https://giacomopoggi.com/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/blog/</loc>
+    <loc>https://giacomopoggi.com/blog/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/blog/pyava/</loc>
+    <loc>https://giacomopoggi.com/blog/pyava/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/python/</loc>
+    <loc>https://giacomopoggi.com/tags/python/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>https://giacomopoggi.com/tags/</loc>
     <lastmod>2020-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://giacomopoggi.com/categories/</loc>
   </url>
 </urlset>

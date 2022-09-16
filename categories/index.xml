@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Giacomo Poggi</title>
-    <link>https://example.org/categories/</link>
+    <link>https://giacomopoggi.com/categories/</link>
     <description>Recent content in Categories on Giacomo Poggi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© 2022</copyright><atom:link href="https://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Giacomo Poggi © 2022</copyright><atom:link href="https://giacomopoggi.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

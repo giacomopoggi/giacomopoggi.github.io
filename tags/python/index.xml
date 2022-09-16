@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on Giacomo Poggi</title>
-    <link>https://example.org/tags/python/</link>
+    <link>https://giacomopoggi.com/tags/python/</link>
     <description>Recent content in Python on Giacomo Poggi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© 2022</copyright>
-    <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Giacomo Poggi © 2022</copyright>
+    <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://giacomopoggi.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pyava: un semplice launcher per emulatori scritto in Python</title>
-      <link>https://example.org/blog/pyava/</link>
+      <link>https://giacomopoggi.com/blog/pyava/</link>
       <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/blog/pyava/</guid>
+      <guid>https://giacomopoggi.com/blog/pyava/</guid>
       <description>Pyava è un semplice launcher per emulatori che ho scritto nell&amp;rsquo;ottobre del 2017 in Python (per la precisione Python 3), il linguaggio di programmazione che studiavo in quel momento.
 Si configura come un comodo menù portatile per avviare i propri giochi.
 L&amp;rsquo;idea è stata ispirata da Yava, un programma molto simile scritto in linguaggio C# (ed il nome Pyava stesso rappresenta una crasi delle parole Python e Yava).
