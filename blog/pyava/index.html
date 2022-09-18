@@ -1,126 +1,418 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html><head>
+<title>Pyava</title>
 
-<head>
-  <title>Pyava: un semplice launcher per emulatori scritto in Python | Giacomo Poggi</title>
 
-  <meta charset="UTF-8">
-  <meta name="language" content="en">
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="Un semplice launcher per emulatori scritto in Python.">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
-  
-
-  <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
 
 
-  
-  
+
+
+<link rel="icon" href="http://giacomopoggi.com/favicon.ico">
+
+
+
+<link rel="stylesheet" href="/scss/journal.min.c5d92f380bf10f6849c7ac487c7df2b22c081e0851e5339224f1ae29210b20d2.css" integrity="sha256-xdkvOAvxD2hJx6xIfH3ysiwIHghR5TOSJPGuKSELINI=" media="screen">
+
+
+
+<link rel="stylesheet" href="/scss/dark-mode.min.9f8d8c2df9285089d141edd4a50cb7506c7948e6ab79a29968dced1bd0ab7d22.css" integrity="sha256-n42MLfkoUInRQe3UpQy3UGx5SOareaKZaNztG9CrfSI=" media="screen">
+
+
+
+
+      <script src="/js/toc.js"></script>
     
- 
-  
-  
-  
-  
-  
-  
-    
-    <link type="text/css" rel="stylesheet" href="/css/post.min.86d1effd4c412b85ac13db53a90c473a0f256f789b821e131125c9aa25cb6a6d.css" integrity="sha256-htHv/UxBK4WsE9tTqQxHOg8lb3ibgh4TESXJqiXLam0="/>
-  
-    
-    <link type="text/css" rel="stylesheet" href="/css/custom.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" integrity="sha256-47DEQpj8HBSa&#43;/TImW&#43;5JCeuQeRkm5NMpJWZG3hSuFU="/>
-  
-  
-   
-   
-    
+    <link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css"><link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Material+Icons">
 
-<script type="application/ld+json">
-  
-    {
-      "@context" : "http://schema.org",
-      "@type" : "BlogPosting",
-      "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https:\/\/giacomopoggi.com\/"
-      },
-      "articleSection" : "blog",
-      "name" : "Pyava: un semplice launcher per emulatori scritto in Python",
-      "headline" : "Pyava: un semplice launcher per emulatori scritto in Python",
-      "description" : "",
-      "inLanguage" : "en-US",
-      "author" : "",
-      "creator" : "",
-      "publisher": "",
-      "accountablePerson" : "",
-      "copyrightHolder" : "",
-      "copyrightYear" : "2020",
-      "datePublished": "2020-04-22 00:00:00 \u002b0000 UTC",
-      "dateModified" : "2020-04-22 00:00:00 \u002b0000 UTC",
-      "url" : "https:\/\/giacomopoggi.com\/blog\/pyava\/",
-      "wordCount" : "237",
-      "keywords" : ["Blog"]
-    }
-  
-  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>console.log("Hello from 'layouts/partials/extended_head.html'")</script>
+
 </head>
-
 <body>
-  <div class="burger__container">
-  <div class="burger" aria-controls="navigation" aria-label="Menu">
-    <div class="burger__meat burger__meat--1"></div>
-    <div class="burger__meat burger__meat--2"></div>
-    <div class="burger__meat burger__meat--3"></div>
-  </div>
+    	<div id="app"><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="http://giacomopoggi.com/">
+    
+        <div class="nav-title">
+            Giacomo Poggi
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/blog">
+                Archivio 🗄️
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/categorie">
+                Categorie 🗂️
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tag">
+                Tag 🏷️
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+
+
+
+Giacomo Poggi © 2022
+
+
+    </div>
+    
+</div><div id="extraContainer" class="extra-container">
+    
+    
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>📖 Indice</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#tasti-rapidi" onclick="onNavClick(`#tasti-rapidi-nav`)" id="tasti-rapidi-nav">
+									Tasti rapidi
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#configurazione" onclick="onNavClick(`#configurazione-nav`)" id="configurazione-nav">
+									Configurazione
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
 </div>
- 
+    
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div>
+<div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/blog">
+                    Archivio 🗄️
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/categorie">
+                    Categorie 🗂️
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tag">
+                    Tag 🏷️
+                </a>
+                
+            
+            
+            <div class="toc">
 
-  <nav class="nav" id="navigation">
-  <ul class="nav__list">
-    
-    
-      <li>
-        <a  href="/">Home</a>
-      </li>
-    
-      <li>
-        <a  class="active"
-         href="/blog">Blog</a>
-      </li>
-    
-  </ul>
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>📖 Indice</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#tasti-rapidi" onclick="onNavClick(`#tasti-rapidi-nav`)" id="tasti-rapidi-nav">
+									Tasti rapidi
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#configurazione" onclick="onNavClick(`#configurazione-nav`)" id="configurazione-nav">
+									Configurazione
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="http://giacomopoggi.com/">
+            Giacomo Poggi
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
 </nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="http://giacomopoggi.com/">
+        <div class="single-column-header-title">Giacomo Poggi</div>
+        
 
+    </a>
+</div>
 
-  <main>
-    
-    
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
 
-    <div class="flex-wrapper">
-      <div class="post__container">
+    <div class="post-list-container post-list-container-shadow">
         <div class="post">
-          <header class="post__header">
-            <h1 id="post__title">Pyava: un semplice launcher per emulatori scritto in Python</h1>
-            <time datetime="2020-04-22 00:00:00 &#43;0000 UTC" class="post__date">2020-22-04</time> 
-          </header>
-          <article class="post__content">
-              
-<p>Pyava è un semplice launcher per emulatori che ho scritto nell&rsquo;ottobre del 2017 in Python (per la precisione Python 3), il linguaggio di programmazione che studiavo in quel momento.<br>
+            
+            
+            
+                
+            
+
+            <div class="post-head-wrapper"
+                
+                    
+                    
+                    style="background-image: url('http://giacomopoggi.com/blog/pyava-featured.jpg')"
+                    
+                
+            >
+                <div class="post-title">
+                    Pyava
+                    
+                    <div class="post-subtitle">
+                        Un semplice launcher per emulatori scritto in Python.
+                    </div>
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2020-04-22
+                        </time>
+                        
+
+                        
+                            <i class="material-icons" style="">folder</i>
+                                <a href="/categorie/programmazione">Programmazione</a>
+                                &nbsp;
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tag/python">Python</a>
+                                &nbsp;
+                            
+                                <a href="/tag/emulazione">Emulazione</a>
+                                &nbsp;
+                            
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>Pyava è un semplice launcher per emulatori che ho scritto nell&rsquo;ottobre del 2017 in Python (per la precisione Python 3), il linguaggio di programmazione che studiavo in quel momento.<br>
 Si configura come un comodo menù portatile per avviare i propri giochi.<br>
-L&rsquo;idea è stata ispirata da <a href="https://github.com/Beluki/Yava" 
-  
-   target="_blank" rel="noreferrer noopener" 
->Yava</a>, un programma molto simile scritto in linguaggio C# (ed il nome Pyava stesso rappresenta una crasi delle parole <strong>P</strong>ython e <strong>Yava</strong>).<br>
-Pyava può essere scaricato gratuitamente da <a href="https://github.com/giacomopoggi/Pyava" 
-  
-   target="_blank" rel="noreferrer noopener" 
->GitHub</a>.</p>
-<p><img src="/blog/pyava-screenshot.png" alt="Pyava su Windows 10"></p>
-<h2 id="tasti-rapidi"><strong>Tasti rapidi</strong><a class="anchor" href="#tasti-rapidi">#</a></h2>
+L&rsquo;idea è stata ispirata da <a href="https://github.com/Beluki/Yava">Yava</a>, un programma molto simile scritto in linguaggio C# (ed il nome Pyava stesso rappresenta una crasi delle parole <strong>P</strong>ython e <strong>Yava</strong>).<br>
+Pyava può essere scaricato gratuitamente da <a href="https://github.com/giacomopoggi/Pyava">GitHub</a>.</p>
+<figure><img src="/blog/pyava-screenshot.png"
+         alt="Pyava su Windows 10"/><figcaption>
+            <p>Pyava su Windows 10</p>
+        </figcaption>
+</figure>
+
+<h2 id="tasti-rapidi"><strong>Tasti rapidi</strong></h2>
 <p>Questi sono i tasti rapidi che possono essere utilizzati all&rsquo;interno del programma:</p>
 <table>
 <thead>
@@ -152,98 +444,69 @@ Pyava può essere scaricato gratuitamente da <a href="https://github.com/giacomo
 </tr>
 </tbody>
 </table>
-<h2 id="configurazione"><strong>Configurazione</strong><a class="anchor" href="#configurazione">#</a></h2>
+<h2 id="configurazione"><strong>Configurazione</strong></h2>
 <p>Pyava deve essere configurato utilizzando un file denominato &ldquo;config.ini&rdquo;. Questo file contiene tutto ciò che Pyava ha bisogno di sapere sulle cartelle ed i file che dovrà gestire.</p>
 <p>Questo esempio di configurazione è stato utilizzato nella generazione dello screeenshot precedente:</p>
-<pre><code class="language-ini">[Game Boy]
-games = C:\Games\Game Boy\
-executable = C:\Emulators\BGB\bgb.exe
-extensions = .zip, .gb
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ini" data-lang="ini"><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">[Game Boy]</span>
+</span></span><span style="display:flex;"><span><span style="color:#4070a0">games</span> <span style="color:#666">=</span> <span style="color:#4070a0">C:\Games\Game Boy\</span>
+</span></span><span style="display:flex;"><span><span style="color:#4070a0">executable</span> <span style="color:#666">=</span> <span style="color:#4070a0">C:\Emulators\BGB\bgb.exe</span>
+</span></span><span style="display:flex;"><span><span style="color:#4070a0">extensions</span> <span style="color:#666">=</span> <span style="color:#4070a0">.zip, .gb</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#007020;font-weight:bold">[Nintendo Entertainment System]</span>
+</span></span><span style="display:flex;"><span><span style="color:#4070a0">games</span> <span style="color:#666">=</span> <span style="color:#4070a0">C:\Games\Nintendo Entertainment System\</span>
+</span></span><span style="display:flex;"><span><span style="color:#4070a0">executable</span> <span style="color:#666">=</span> <span style="color:#4070a0">C:\Emulators\Mesen\Mesen.exe</span>
+</span></span><span style="display:flex;"><span><span style="color:#4070a0">extensions</span> <span style="color:#666">=</span> <span style="color:#4070a0">.7z</span>
+</span></span><span style="display:flex;"><span><span style="color:#4070a0">parameters</span> <span style="color:#666">=</span> <span style="color:#4070a0">/fullscreen, /DoNotSaveSettings</span>
+</span></span></code></pre></div><p>I parametri e le estensioni sono separati dal carattere &ldquo;,&rdquo;. Si può impostare un separatore personalizzato utilizzando l&rsquo;apposito tasto rapido, ma il separatore è reimpostato sul carattere &ldquo;,&rdquo; ogni volta che viene selezionata una piattaforma diversa dalla lista.</p>
 
-[Nintendo Entertainment System]
-games = C:\Games\Nintendo Entertainment System\
-executable = C:\Emulators\Mesen\Mesen.exe
-extensions = .7z
-parameters = /fullscreen, /DoNotSaveSettings
-</code></pre>
-<p>I parametri e le estensioni sono separati dal carattere &ldquo;,&rdquo;. Si può impostare un separatore personalizzato utilizzando l&rsquo;apposito tasto rapido, ma il separatore è reimpostato sul carattere &ldquo;,&rdquo; ogni volta che viene selezionata una piattaforma diversa dalla lista.</p>
-
-
-              
-          </article>
-          
-
-<ul class="tags__list">
-    
-    <li class="tag__item">
-        <a class="tag__link" href="https://giacomopoggi.com/tags/python/">Python</a>
-    </li></ul>
-
- <div class="pagination">
-  
-
-  
-</div>
-
-          
-          <footer class="post__footer">
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Ultima modifica in data 2020-04-22</p>
+                    
+                </div>
+            </div>
             
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts">
+			Prossimo<br>Non ci sono articoli più recenti.
+                </a>
+                
+                
+                
+                <a class="older-posts">
+			Precedente<br>Non ci sono articoli più vecchi.
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
 
 
-<div class="social-icons">
-  
-     
-    
-      <a
-        class="social-icons__link"
-        title="Email"
-        href="mailto:giapog@duck.com"
-        target="_blank"
-        rel="me noopener"
-      >
-        <div class="social-icons__icon" style="background-image: url('https://giacomopoggi.com/svg/email.svg')"></div>
-      </a>
-    
-     
-</div>
 
-            <p>Giacomo Poggi © 2022</p>
-          </footer>
-          </div>
-      </div>
-      
-      <div class="toc-container">
-           <div class="toc-post-title">Pyava: un semplice launcher per emulatori scritto in Python</div> 
-        <nav id="TableOfContents">
-  <ul>
-    <li><a href="#tasti-rapidi"><strong>Tasti rapidi</strong></a></li>
-    <li><a href="#configurazione"><strong>Configurazione</strong></a></li>
-  </ul>
-</nav>
-      </div>
-      
+
+
+
+
+
+
+
+            </div>
+        </div>
     </div>
+
+
+                    </div>
+            </div><div id="single-column-footer">
+
+
+
+Giacomo Poggi © 2022
+
+</div>
+            </div>
     
-
-  </main>
-
-   
-
-  
-  <script src="/js/index.min.301a8b0870381bf76b3b5182e8966d363a0474281183439beb024d8b8228fc66.js" integrity="sha256-MBqLCHA4G/drO1GC6JZtNjoEdCgRg0Ob6wJNi4Io/GY=" crossorigin="anonymous"></script>
-  
-  
-  <script src="https://unpkg.com/prismjs@1.20.0/components/prism-core.min.js"></script>
-
-  
-  <script src="https://unpkg.com/prismjs@1.20.0/plugins/autoloader/prism-autoloader.min.js"
-    data-autoloader-path="https://unpkg.com/prismjs@1.20.0/components/"></script>
-
-  
-    <script src="/js/table-of-contents.js"></script>
-  
-
-
-</body>
-
+    <script src="/js/journal.js"></script></body>
 </html>
