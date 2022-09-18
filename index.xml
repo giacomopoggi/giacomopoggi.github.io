@@ -19,18 +19,16 @@
         <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
         
         <guid>http://giacomopoggi.com/blog/pyava/</guid>
-        <description>Giacomo Poggi http://giacomopoggi.com/blog/pyava/ -&lt;p&gt;Pyava è un semplice launcher per emulatori che ho scritto nell&amp;rsquo;ottobre del 2017 in Python (per la precisione Python 3), il linguaggio di programmazione che studiavo in quel momento.&lt;br&gt;
-Si configura come un comodo menù portatile per avviare i propri giochi.&lt;br&gt;
+        <description>Giacomo Poggi http://giacomopoggi.com/blog/pyava/ -&lt;p&gt;Pyava è un semplice launcher per emulatori scritto nell&amp;rsquo;ottobre del 2017 in Python (più precisamente in Python 3).&lt;br&gt;
 L&amp;rsquo;idea è stata ispirata da &lt;a href=&#34;https://github.com/Beluki/Yava&#34;&gt;Yava&lt;/a&gt;, un programma molto simile scritto in linguaggio C# (ed il nome Pyava stesso rappresenta una crasi delle parole &lt;strong&gt;P&lt;/strong&gt;ython e &lt;strong&gt;Yava&lt;/strong&gt;).&lt;br&gt;
 Pyava può essere scaricato gratuitamente da &lt;a href=&#34;https://github.com/giacomopoggi/Pyava&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;http://giacomopoggi.com/blog/pyava-screenshot.png&#34;
          alt=&#34;Pyava su Windows 10&#34;/&gt;&lt;figcaption&gt;
-            &lt;p&gt;Pyava su Windows 10&lt;/p&gt;
+            &lt;p&gt;⤷ Pyava su Windows 10&lt;/p&gt;
         &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;tasti-rapidi&#34;&gt;&lt;strong&gt;Tasti rapidi&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Questi sono i tasti rapidi che possono essere utilizzati all&amp;rsquo;interno del programma:&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
