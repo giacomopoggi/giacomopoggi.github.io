@@ -15,14 +15,14 @@
     
         <item>
         <title>Pyava</title>
-        <link>http://giacomopoggi.com/blog/pyava/</link>
+        <link>http://giacomopoggi.com/articoli/pyava/</link>
         <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
         
-        <guid>http://giacomopoggi.com/blog/pyava/</guid>
-        <description>Giacomo Poggi http://giacomopoggi.com/blog/pyava/ -&lt;p&gt;Pyava è un semplice launcher per emulatori scritto nell&amp;rsquo;ottobre del 2017 in Python (più precisamente in Python 3).&lt;br&gt;
+        <guid>http://giacomopoggi.com/articoli/pyava/</guid>
+        <description>Giacomo Poggi http://giacomopoggi.com/articoli/pyava/ -&lt;p&gt;Pyava è un semplice launcher per emulatori scritto nell&amp;rsquo;ottobre del 2017 in Python (più precisamente in Python 3).&lt;br&gt;
 L&amp;rsquo;idea è stata ispirata da &lt;a href=&#34;https://github.com/Beluki/Yava&#34;&gt;Yava&lt;/a&gt;, un programma molto simile scritto in linguaggio C# (ed il nome Pyava stesso rappresenta una crasi delle parole &lt;strong&gt;P&lt;/strong&gt;ython e &lt;strong&gt;Yava&lt;/strong&gt;).&lt;br&gt;
 Pyava può essere scaricato gratuitamente da &lt;a href=&#34;https://github.com/giacomopoggi/Pyava&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;http://giacomopoggi.com/blog/pyava-screenshot.png&#34;
+&lt;figure&gt;&lt;img src=&#34;http://giacomopoggi.com/articoli/pyava-screenshot.png&#34;
          alt=&#34;Pyava su Windows 10&#34;/&gt;&lt;figcaption&gt;
             &lt;p&gt;⤷ Pyava su Windows 10&lt;/p&gt;
         &lt;/figcaption&gt;
@@ -73,7 +73,7 @@ Pyava può essere scaricato gratuitamente da &lt;a href=&#34;https://github.com/
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#4070a0&#34;&gt;extensions&lt;/span&gt; &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4070a0&#34;&gt;.7z&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#4070a0&#34;&gt;parameters&lt;/span&gt; &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#4070a0&#34;&gt;/fullscreen, /DoNotSaveSettings&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I parametri e le estensioni sono separati dal carattere &amp;ldquo;,&amp;rdquo;. Si può impostare un separatore personalizzato utilizzando l&amp;rsquo;apposito tasto rapido, ma il separatore è reimpostato sul carattere &amp;ldquo;,&amp;rdquo; ogni volta che viene selezionata una piattaforma diversa dalla lista.&lt;/p&gt;
-- http://giacomopoggi.com/blog/pyava/ - Giacomo Poggi © 2022</description>
+- http://giacomopoggi.com/articoli/pyava/ - Giacomo Poggi © 2022</description>
         </item>
     
     
