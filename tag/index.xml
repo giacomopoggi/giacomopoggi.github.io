@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tag on Giacomo Poggi</title>
-        <link>http://giacomopoggi.com/tag/</link>
+        <link>https://giacomopoggi.com/tag/</link>
         <description>Recent content in Tag on Giacomo Poggi</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://giacomopoggi.com/tag/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://giacomopoggi.com/tag/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Emulazione</title>
-        <link>http://giacomopoggi.com/tag/emulazione/</link>
+        <link>https://giacomopoggi.com/tag/emulazione/</link>
         <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
         
-        <guid>http://giacomopoggi.com/tag/emulazione/</guid>
+        <guid>https://giacomopoggi.com/tag/emulazione/</guid>
         <description></description>
         </item>
         <item>
         <title>Python</title>
-        <link>http://giacomopoggi.com/tag/python/</link>
+        <link>https://giacomopoggi.com/tag/python/</link>
         <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
         
-        <guid>http://giacomopoggi.com/tag/python/</guid>
+        <guid>https://giacomopoggi.com/tag/python/</guid>
         <description></description>
         </item>
         

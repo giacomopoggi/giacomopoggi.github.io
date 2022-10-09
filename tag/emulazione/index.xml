@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Emulazione on Giacomo Poggi</title>
-        <link>http://giacomopoggi.com/tag/emulazione/</link>
+        <link>https://giacomopoggi.com/tag/emulazione/</link>
         <description>Recent content in Emulazione on Giacomo Poggi</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://giacomopoggi.com/tag/emulazione/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://giacomopoggi.com/tag/emulazione/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Pyava</title>
-        <link>http://giacomopoggi.com/articoli/pyava/</link>
+        <link>https://giacomopoggi.com/articoli/pyava/</link>
         <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
         
-        <guid>http://giacomopoggi.com/articoli/pyava/</guid>
-        <description>&lt;img src="http://giacomopoggi.com/articoli/pyava/pyava-featured.jpg" alt="Featured image of post Pyava" /&gt;&lt;p&gt;Pyava è un semplice launcher per emulatori scritto nell&amp;rsquo;ottobre del 2017 in Python (più precisamente in Python 3).&lt;br&gt;
+        <guid>https://giacomopoggi.com/articoli/pyava/</guid>
+        <description>&lt;img src="https://giacomopoggi.com/articoli/pyava/pyava-featured.jpg" alt="Featured image of post Pyava" /&gt;&lt;p&gt;Pyava è un semplice launcher per emulatori scritto nell&amp;rsquo;ottobre del 2017 in Python (più precisamente in Python 3).&lt;br&gt;
 L&amp;rsquo;idea è stata ispirata da &lt;a class=&#34;link&#34; href=&#34;https://github.com/Beluki/Yava&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Yava&lt;/a&gt;, un programma molto simile scritto in linguaggio C# (ed il nome Pyava stesso rappresenta una crasi delle parole &lt;strong&gt;P&lt;/strong&gt;ython e &lt;strong&gt;Yava&lt;/strong&gt;).&lt;br&gt;
 Pyava può essere scaricato gratuitamente da &lt;a class=&#34;link&#34; href=&#34;https://github.com/giacomopoggi/Pyava&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
