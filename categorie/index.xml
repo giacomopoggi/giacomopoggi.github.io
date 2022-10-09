@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Categorie on Giacomo Poggi</title>
-    <link>http://giacomopoggi.com/categorie/</link>
-    <description>Recent content in Categorie on Giacomo Poggi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Giacomo Poggi © 2022</copyright>
-    <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://giacomopoggi.com/categorie/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Programmazione</title>
-      <link>http://giacomopoggi.com/categorie/programmazione/</link>
-      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://giacomopoggi.com/categorie/programmazione/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>Categorie on Giacomo Poggi</title>
+        <link>http://giacomopoggi.com/categorie/</link>
+        <description>Recent content in Categorie on Giacomo Poggi</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://giacomopoggi.com/categorie/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Programmazione</title>
+        <link>http://giacomopoggi.com/categorie/programmazione/</link>
+        <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+        
+        <guid>http://giacomopoggi.com/categorie/programmazione/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
 </rss>

@@ -1,272 +1,355 @@
 <!DOCTYPE html>
-<html><head>
-<title>Tag</title>
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Raccolta di pensieri e opinioni.'><title>Tag</title>
 
+<link rel='canonical' href='http://giacomopoggi.com/tag/'>
 
+<link rel="stylesheet" href="/scss/style.min.18145888f21de6cb02d8cb0891be8240096206785da14eda35f6c23c239b966a.css"><meta property='og:title' content='Tag'>
+<meta property='og:description' content='Raccolta di pensieri e opinioni.'>
+<meta property='og:url' content='http://giacomopoggi.com/tag/'>
+<meta property='og:site_name' content='Giacomo Poggi'>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2020-04-22T00:00:00&#43;00:00 '/>
+<meta name="twitter:title" content="Tag">
+<meta name="twitter:description" content="Raccolta di pensieri e opinioni."><link rel="alternate" type="application/rss&#43;xml" href="http://giacomopoggi.com/tag/index.xml">
+    <link rel="shortcut icon" href="/favicon.ico" />
 
+    </head>
+    <body class="">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
 
-<meta charset="utf-8">
-<meta name="X-UA-Compatible" content="IE=edge">
-<meta name="google-site-verification" content="">
-<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
-<meta content="telephone=no" name="format-detection">
-<meta name="description" content="">
-<meta name="renderer" content="webkit">
-<meta name="theme-color" content="#ffffff">
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
 
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Attiva/Disattiva menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
 
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-<link rel="icon" href="http://giacomopoggi.com/favicon.ico">
-
-
-
-<link rel="stylesheet" href="/scss/journal.min.d42b6de1832d3a054443b576f9aa684e30b66f7a2a0976ea77da11c55ebec62c.css" integrity="sha256-1Ctt4YMtOgVEQ7V2&#43;apoTjC2b3oqCXbqd9oRxV6&#43;xiw=" media="screen">
-
-
-
-<link rel="stylesheet" href="/scss/dark-mode.min.ad7f2a4bad64d683d5963f1f4c7c7e1908e15336ea7263ca28913043ba7f4ced.css" integrity="sha256-rX8qS61k1oPVlj8fTHx&#43;GQjhUzbqcmPKKJEwQ7p/TO0=" media="screen">
-
-
-
-
-    <link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css"><link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Material+Icons">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script>console.log("Hello from 'layouts/partials/extended_head.html'")</script>
-
-</head>
-<body>
-    	<div id="app"><div id="sideContainer" class="side-container">
-    
-    <a class="a-block nav-head false" href="http://giacomopoggi.com/">
-    
-        <div class="nav-title">
-            Giacomo Poggi
-        </div>
-        
-    </a>
-
-    <div class="nav-link-list">
-        
+    <header>
         
             
-            
-            
-            
-            
-            <a class="a-block nav-link-item false" href="/articoli">
-                Articoli
-            </a>
-            
-        
-            
-            
-            
-            
-            
-            <a class="a-block nav-link-item false" href="/categorie">
-                Categorie
-            </a>
-            
-        
-            
-            
-            
-                
-            
-            
-            
-            <a class="a-block nav-link-item active" href="/tag">
-                Tag
-            </a>
-            
-        
-    </div>
-
-    
-
-    <div class="nav-footer">
-        
-
-
-
-Giacomo Poggi © 2022
-
-
-    </div>
-    
-</div><div id="extraContainer" class="extra-container">
-    
-    
-    <div class="pagination">
-        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
-            <i class="material-icons pagination-action-icon">
-                keyboard_arrow_up
-            </i>
-        </a>
-        
-        <a type="button" class="pagination-action" id="darkModeToggleButton">
-            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
-                dark_mode
-            </span>
-        </a>
-        
-        
-    </div>
-</div>
-<div class="single-column-drawer-container" id="drawer"
-     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
-    <div class="drawer-content">
-        <div class="drawer-menu">
-            
-            
-            
-                
-                
-                
-                
-                
-                <a class="a-block drawer-menu-item false" href="/articoli">
-                    Articoli
-                </a>
-                
-            
-                
-                
-                
-                
-                
-                <a class="a-block drawer-menu-item false" href="/categorie">
-                    Categorie
-                </a>
-                
-            
-                
-                
+            <figure class="site-avatar">
+                <a href="/">
                 
                     
+                    
+                    
+                        
+                        <img src="/img/avatar_hu78f86041ceacbd69f2e2628f2ecf194f_44857_300x0_resize_q75_box.jpg" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
                 
-                
-                
-                <a class="a-block drawer-menu-item active" href="/tag">
-                    Tag
                 </a>
                 
+                    <span class="emoji">🪴</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Giacomo Poggi</a></h1>
+            <h2 class="site-description">Raccolta di pensieri e opinioni.</h2>
+        </div>
+    </header><ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/articoli/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Articoli</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/cerca/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Cerca</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
             
             
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Modalità scura</span>
+                </li>
+            
         </div>
-    </div>
-</div>
-<transition name="fade">
-    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
-</transition>
-<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
-    <div id="navBackground" class="nav-background"></div>
-    <div class="container container-narrow nav-content">
-        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
-            <i class="material-icons">
-                menu
-            </i>
-        </button>
-        <a id="navTitle" class="navbar-brand" href="http://giacomopoggi.com/">
-            Giacomo Poggi
-        </a>
-        
-        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
-            <i class="material-icons" id="darkModeToggleIcon2">
-                dark_mode
-            </i>
-        </button>
-        
-    </div>
-</nav>
-<div class="single-column-header-container" id="pageHead"
-     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
-    <a href="http://giacomopoggi.com/">
-        <div class="single-column-header-title">Giacomo Poggi</div>
-        
+    </ol>
+</aside>
+<main class="main full-width">
+    <header>
+        <h3 class="section-title">
+            
+                Sezione
+            
+        </h3>
 
-    </a>
-</div>
-
-            <div id="content">
-                <div id="streamContainer" class="stream-container">
-
-<div class="post-list-container post-list-container-shadow">
-  <a class="a-block">
-    <div class="post-item-wrapper post-item-wrapper-no-hover">
-      <div class="post-item post-item-no-gaps">
-        <div class="post-item-info-wrapper">
-          <div class="post-item-title post-item-title-small">
-            Tag
-          </div>
-        </div>
-      </div>
-    </div>
-  </a>
-  <div class="tags">
-    
-    <div class="tag">
-      <a href="/tag/emulazione/" class="btn btn-outline-secondary position-relative rounded-pill">
-        Emulazione
-        <span class="badge">(1)</span>
-      </a>
-    </div>
-    
-    <div class="tag">
-      <a href="/tag/python/" class="btn btn-outline-secondary position-relative rounded-pill">
-        Python
-        <span class="badge">(1)</span>
-      </a>
-    </div>
-    
-  </div>
-</div>
-
-
-
-                    </div>
-            </div><div id="single-column-footer">
-
-
-
-Giacomo Poggi © 2022
-
-</div>
+        <div class="section-card">
+            <div class="section-details">
+                <h3 class="section-count">2 pagine</h3>
+                <h1 class="section-term">Tag</h1>
+                
             </div>
+        </div>
+    </header>
+        
     
-    <script src="/js/journal.js"></script></body>
+    <section class="article-list--compact">
+        
+            <article>
+    <a href="/tag/emulazione/">
+        <div class="article-details">
+            <h2 class="article-title">Emulazione</h2>
+            <footer class="article-time">
+                <time datetime='2020-04-22T00:00:00Z'>2020-04-22</time>
+            </footer>
+        </div>
+    </a>
+</article>
+        
+            <article>
+    <a href="/tag/python/">
+        <div class="article-details">
+            <h2 class="article-title">Python</h2>
+            <footer class="article-time">
+                <time datetime='2020-04-22T00:00:00Z'>2020-04-22</time>
+            </footer>
+        </div>
+    </a>
+</article>
+        
+    </section>
+<footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2022 Giacomo Poggi
+    </section>
+    
+    <section class="powerby">
+        Realizzato con <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Tema <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.14.0">Stack</a></b> realizzato da <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+            </main>
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                <form action="/cerca/" class="search-form widget" >
+        <p>
+            <label>Cerca</label>
+            <input name="keyword" required placeholder="Scrivi qualcosa..." />
+        
+            <button title="Cerca">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+            </button>
+        </p>
+    </form>
+            
+        
+            
+                <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-infinity" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M9.828 9.172a4 4 0 1 0 0 5.656 a10 10 0 0 0 2.172 -2.828a10 10 0 0 1 2.172 -2.828 a4 4 0 1 1 0 5.656a10 10 0 0 1 -2.172 -2.828a10 10 0 0 0 -2.172 -2.828" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Articoli</h2>
+
+        
+        
+        
+        
+        
+        <div class="widget-archive--list">
+            <div class="archives-year">
+                    <a href="/articoli/#2020">
+                        
+                            <span class="year">2020</span>
+                            <span class="count">1</span>
+                        
+                    </a> 
+                </div>
+            
+        </div>
+    </section>
+            
+        
+            
+                <section class="widget tagCloud">
+    <div class="widget-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+    </div>
+    <h2 class="widget-title section-title">Categorie</h2>
+
+    <div class="tagCloud-tags">
+        
+            <a href="/categorie/programmazione/" class="font_size_1">
+                Programmazione
+            </a>
+        
+    </div>
+</section>
+
+            
+        
+            
+                <section class="widget tagCloud">
+    <div class="widget-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11 3L20 12a1.5 1.5 0 0 1 0 2L14 20a1.5 1.5 0 0 1 -2 0L3 11v-4a4 4 0 0 1 4 -4h4" />
+  <circle cx="9" cy="9" r="2" />
+</svg>
+
+
+
+    </div>
+    <h2 class="widget-title section-title">Tag</h2>
+
+    <div class="tagCloud-tags">
+        
+            <a href="/tag/emulazione/" class="font_size_1">
+                Emulazione
+            </a>
+        
+            <a href="/tag/python/" class="font_size_1">
+                Python
+            </a>
+        
+    </div>
+</section>
+            
+        
+    </aside>
+
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
 </html>
