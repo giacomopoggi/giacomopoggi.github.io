@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Giacomo Poggi 山</title>
+    <link>https://example.com/categories/</link>
+    <description>Recent content in Categories on Giacomo Poggi 山</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cn</language>
+    <copyright>© 2023 Giacomo Poggi</copyright>
+    <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>programmazione</title>
+      <link>https://example.com/categories/programmazione/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/categories/programmazione/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

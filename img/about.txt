@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Gupter
+- Font Author: Copyright 2019 The Gupter Project Authors (https://github.com/octaviopardo/GUPTER)
+- Font Source: http://fonts.gstatic.com/s/gupter/v14/2-cm9JNmxJqPO1QUYZa_Wu_lpA.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))

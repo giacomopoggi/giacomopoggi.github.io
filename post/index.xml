@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Articoli on Giacomo Poggi 山</title>
+    <link>https://example.com/post/</link>
+    <description>Recent content in Articoli on Giacomo Poggi 山</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cn</language>
+    <copyright>© 2023 Giacomo Poggi</copyright>
+    <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pyava</title>
+      <link>https://example.com/post/pyava/</link>
+      <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/post/pyava/</guid>
+      <description>&lt;p&gt;Pyava è un semplice launcher per emulatori scritto nell&amp;rsquo;ottobre del 2017 in Python (più precisamente in Python 3).&lt;br&gt;
+L&amp;rsquo;idea è stata ispirata da &lt;a href=&#34;https://github.com/Beluki/Yava&#34;&gt;Yava&lt;/a&gt;, un programma molto simile scritto in linguaggio C# (ed il nome Pyava stesso rappresenta una crasi delle parole &lt;strong&gt;P&lt;/strong&gt;ython e &lt;strong&gt;Yava&lt;/strong&gt;).&lt;br&gt;
+Pyava può essere scaricato gratuitamente da &lt;a href=&#34;https://github.com/giacomopoggi/Pyava&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;pyava-screenshot.png&#34;
+         alt=&#34;Pyava su Windows 10&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;⤷ Pyava su Windows 10&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;tasti-rapidi&#34;&gt;&lt;strong&gt;Tasti rapidi&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Tasto&lt;/th&gt;
+&lt;th&gt;Funzione&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Esc&lt;/td&gt;
+&lt;td&gt;Chiude il programma.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Tab&lt;/td&gt;
+&lt;td&gt;Sposta la selezione dal pannello sinistro al destro.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+A&lt;/td&gt;
+&lt;td&gt;Mostra un messaggio informativo.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+R&lt;/td&gt;
+&lt;td&gt;Ricarica il file config.ini senza chiudere il programma.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ctrl+S&lt;/td&gt;
+&lt;td&gt;Imposta un separatore personalizzato per dividere i parametri.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;configurazione&#34;&gt;&lt;strong&gt;Configurazione&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Pyava deve essere configurato utilizzando un file denominato &amp;ldquo;config.ini&amp;rdquo;. Questo file contiene tutto ciò che Pyava ha bisogno di sapere sulle cartelle ed i file che dovrà gestire.&lt;/p&gt;
+&lt;p&gt;Questo esempio di configurazione è stato utilizzato nella generazione dello screeenshot precedente:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-ini&#34; data-lang=&#34;ini&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#00a8c8&#34;&gt;[Game Boy]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75af00&#34;&gt;games&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d88200&#34;&gt;C:\Games\Game Boy\&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75af00&#34;&gt;executable&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d88200&#34;&gt;C:\Emulators\BGB\bgb.exe&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75af00&#34;&gt;extensions&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d88200&#34;&gt;.zip, .gb&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#00a8c8&#34;&gt;[Nintendo Entertainment System]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75af00&#34;&gt;games&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d88200&#34;&gt;C:\Games\Nintendo Entertainment System\&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75af00&#34;&gt;executable&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d88200&#34;&gt;C:\Emulators\Mesen\Mesen.exe&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75af00&#34;&gt;extensions&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d88200&#34;&gt;.7z&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75af00&#34;&gt;parameters&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#d88200&#34;&gt;/fullscreen, /DoNotSaveSettings&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I parametri e le estensioni sono separati dal carattere &amp;ldquo;,&amp;rdquo;. Si può impostare un separatore personalizzato utilizzando l&amp;rsquo;apposito tasto rapido, ma il separatore è reimpostato sul carattere &amp;ldquo;,&amp;rdquo; ogni volta che viene selezionata una piattaforma diversa dalla lista.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
