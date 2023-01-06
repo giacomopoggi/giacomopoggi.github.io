@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>emulazione on Giacomo Poggi 山</title>
-    <link>https://example.com/tags/emulazione/</link>
+    <link>https://giacomopoggi.com/tags/emulazione/</link>
     <description>Recent content in emulazione on Giacomo Poggi 山</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>cn</language>
     <copyright>© 2023 Giacomo Poggi</copyright>
     <lastBuildDate>Wed, 22 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://example.com/tags/emulazione/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://giacomopoggi.com/tags/emulazione/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Pyava</title>
-      <link>https://example.com/post/pyava/</link>
+      <link>https://giacomopoggi.com/post/pyava/</link>
       <pubDate>Wed, 22 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/pyava/</guid>
+      <guid>https://giacomopoggi.com/post/pyava/</guid>
       <description>&lt;p&gt;Pyava è un semplice launcher per emulatori scritto nell&amp;rsquo;ottobre del 2017 in Python (più precisamente in Python 3).&lt;br&gt;
 L&amp;rsquo;idea è stata ispirata da &lt;a href=&#34;https://github.com/Beluki/Yava&#34;&gt;Yava&lt;/a&gt;, un programma molto simile scritto in linguaggio C# (ed il nome Pyava stesso rappresenta una crasi delle parole &lt;strong&gt;P&lt;/strong&gt;ython e &lt;strong&gt;Yava&lt;/strong&gt;).&lt;br&gt;
 Pyava può essere scaricato gratuitamente da &lt;a href=&#34;https://github.com/giacomopoggi/Pyava&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
